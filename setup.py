@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="eth_mpt",
-    version="0.2.0",
+    version="0.2.1",
     author="Igor Aleksanov",
     author_email="popzxc@yandex.com",
     description="A simlpe Merkle Patricia Trie implementation",
@@ -14,12 +14,12 @@ setuptools.setup(
     url="https://github.com/popzxc/merkle-patricia-trie",
     packages=setuptools.find_packages(),
     install_requires=[
-        'cytoolz==0.9.0.1',
-        'eth-hash==0.2.0',
-        'eth-typing==2.0.0',
-        'eth-utils==1.4.1',
+        'cytoolz==0.11.0',
+        'eth-hash==0.5.2',
+        'eth-typing==3.4.0',
+        'eth-utils==2.2.0',
         'pycryptodome==3.7.3',
-        'rlp==1.1.0',
+        'rlp==3.0.0',
         'toolz==0.9.0',
     ],
     classifiers=[
